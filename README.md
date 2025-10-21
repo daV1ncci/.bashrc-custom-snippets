@@ -7,7 +7,7 @@ This repository contains **curated `.bashrc` snippets** designed to boost your t
 
 ---
 
-### Installation 🛠️
+## Installation 🛠️
 
 1. Clone the repository
 Clone this repository to a directory of your choice (we recommend ~/.dotfiles/bashrc-snippets):
@@ -38,7 +38,7 @@ source ~/.bashrc
 Or simply close and reopen your terminal.
 
 ___
-##### ⚙️ Optional: Using an environment variable for flexibility
+### ⚙️ Optional: Using an environment variable for flexibility
 
 If you want more flexibility (for example, installing your dotfiles somewhere else), you can define an environment variable DOTFILES that points to the root of your dotfiles directory.
 Add this to your .bashrc (replace with your actual path):
@@ -48,7 +48,7 @@ export DOTFILES="$HOME/.dotfiles"
 [ -f "${DOTFILES}/bashrc-snippets/load.sh" ] && source "${DOTFILES}/bashrc-snippets/load.sh"
 ```
 
-###### What this setup provides 📦
+### What this setup provides 📦
 - 🚀 Automatic loading of all .sh snippets in the repository on shell startup
 - 🧩 Modular, easy to maintain, and safe configuration additions
 - 🔧 Snippets for aliases, environment variables, tmux, git, prompts, and more (check individual files for details)
