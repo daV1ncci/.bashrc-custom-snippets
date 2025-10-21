@@ -20,7 +20,9 @@ git clone https://github.com/daV1ncci/bashrc-snippets.git ~/.dotfiles/bashrc-sni
 3. Use the loader script
 Add the following line to your .bashrc to automatically load all snippets on shell startup:
 
-```[ -f ~/.dotfiles/bashrc-snippets/load.sh ] && source ~/.dotfiles/bashrc-snippets/load.sh```
+```
+[ -f ~/.dotfiles/bashrc-snippets/load.sh ] && source ~/.dotfiles/bashrc-snippets/load.sh
+```
 
 You can add it by running:
 
@@ -29,7 +31,9 @@ You can add it by running:
 3. Reload your shell configuration
 To apply the changes immediately, run:
 
-``source ~/.bashrc```
+```
+source ~/.bashrc
+```
 
 Or simply close and reopen your terminal.
 
