@@ -13,9 +13,9 @@ This repository contains **curated `.bashrc` snippets** designed to boost your t
 
 Clone this repository to a directory of your choice (we recommend ~/.dotfiles/bashrc-snippets):
 
-<code>
-  git clone https://github.com/yourusername/bashrc-snippets.git ~/.dotfiles/bashrc-snippets
-</code>
+'''
+git clone https://github.com/yourusername/bashrc-snippets.git ~/.dotfiles/bashrc-snippets
+'''
 
 2. Use the loader script
 
